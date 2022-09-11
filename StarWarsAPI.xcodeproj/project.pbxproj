@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6111BC1928CE96BF001D414F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6111BC1828CE96BF001D414F /* TableViewCell.swift */; };
 		61E65F2128CE93F10053B04A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E65F2028CE93F10053B04A /* AppDelegate.swift */; };
 		61E65F2328CE93F10053B04A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E65F2228CE93F10053B04A /* SceneDelegate.swift */; };
 		61E65F2528CE93F10053B04A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E65F2428CE93F10053B04A /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6111BC1828CE96BF001D414F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		61E65F1D28CE93F10053B04A /* StarWarsAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E65F2028CE93F10053B04A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61E65F2228CE93F10053B04A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				61E65F2228CE93F10053B04A /* SceneDelegate.swift */,
 				61E65F2428CE93F10053B04A /* ViewController.swift */,
 				61E65F2628CE93F10053B04A /* Main.storyboard */,
+				6111BC1828CE96BF001D414F /* TableViewCell.swift */,
 				61E65F2928CE93F20053B04A /* Assets.xcassets */,
 				61E65F2B28CE93F20053B04A /* LaunchScreen.storyboard */,
 				61E65F2E28CE93F20053B04A /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61E65F2528CE93F10053B04A /* ViewController.swift in Sources */,
+				6111BC1928CE96BF001D414F /* TableViewCell.swift in Sources */,
 				61E65F2128CE93F10053B04A /* AppDelegate.swift in Sources */,
 				61E65F2328CE93F10053B04A /* SceneDelegate.swift in Sources */,
 			);
@@ -293,6 +297,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,6 +326,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
